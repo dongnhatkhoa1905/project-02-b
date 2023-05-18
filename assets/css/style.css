@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* common */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    padding: 20px 41px 21px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+}
+
+.hero {
+    height: 860px;
+}
+
+.header {
+    margin-top: 67.2px;
+}
+
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    gap: 39px;
+}
+
+.nav li a {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 24px;
+
+    color: #2f3a3b;
+}
+
+.action .sign-in {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 24px;
+    text-align: center;
+    color: #494949;
+    margin-right: 24px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 12px 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #1ebfc1;
+    border-radius: 6px;
+}
+
+.action .sign-up {
+}
+
+.hero .content-block .text-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #767e7e;
+}
+
+.content-block .cta-group {
+    display: flex;
+    gap: 50px;
+}
+
+.content-block .cta-group .play .watch-video {
+    padding: 24px;
+
+}
+
+.content-block .cta-group .play {
+    border: 0 solid #9da6a5;
+    box-shadow: #9da6a5;
+   background: #fff;
+}
+
+.content-block .cta-group .play:hover {
+    border-radius: 50%;
+    border: 1px solid #1ebfc1;
+}
+
+.hero .content-block .heading {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 72px;
+    color: #0d1111;
+}
+
+.hero .content-block .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9da6a5;
+    width: 374px;
+}
+
+.hero .content-block .cta-group {
+    margin-top: 52px;
+}
+
+.hero .content-block .media-ctn {
+}
+
+.media-block {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 79px;
+}
+
+.media-block img {
+    position: relative;
+    background: #e0f7f6;
+}
+
+.media-block .lable {
+    position: absolute;
+    margin-bottom: 125px;
+}
